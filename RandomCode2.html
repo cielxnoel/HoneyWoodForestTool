@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Molotov cocktail has been removed from items list -->
+	
+<h1>Searches</h1>
+
+<button onclick="mySearch()">Search</button> After searching, click OK in the pop-up window, then choose from below as appropriate.
+
+<script>
+function mySearch() {
+var myArray = [
+  "You found a zombie",
+  "You found an item",
+  "You found an item"
+];
+
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+alert(randomItem);
+}
+</script>
+
+
+<p>
+<button onclick="myZombie()">which zombie</button>
+
+<script>
+function myZombie() {
+var myArrayZ = [
+  "You found nothing",
+  "You found a hulk",
+  "You found a runner",
+  "You found a walker",
+  "You found a walker",
+  "You found nothing"
+];
+
+var randomItem = myArrayZ[Math.floor(Math.random()*myArrayZ.length)];
+alert(randomItem);
+}
+</script>
+
+
+<button onclick="myItem()">what item</button>
+
+<script>
+function myItem() {
+var myArray = [
+  "You found a shotgun",
+  "You found an axe",
+  "You found water",
+  "You found rice",
+  "You found a CZ 550",
+  "You found a torch",
+  "You found a pistol",
+  "You found gasoline",
+  "You found a cross bow",
+  "You found a baseball bat",
+  "You found flour",
+  "You found a rifle"
+];
+
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+alert(randomItem);
+}
+</script>
+</p>
+
+
+<h1>&nbsp;</h1>
+<h1>Success or fail</h1>
+
+<button onclick="myflip()">Coin toss</button>
+
+<script>
+function myflip() {
+var myArray = [
+  "Success",
+  "Failure"
+];
+
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+alert(randomItem);
+}
+</script>
+
+
+<h1>&nbsp;</h1>
+<h1>Attacks / Bonus</h1>
+
+<p>Click the button for the appropriate dice.</p>
+
+<button onclick="myD6()">D6</button>
+
+<p id="d6"></p>
+
+<script>
+function myD6() {
+  var x = document.getElementById("d6")
+  x.innerHTML = Math.floor((Math.random() * 6) + 1);
+}
+</script>
+
+
+<button onclick="myD20()">D20</button>
+
+<p id="d20"></p>
+
+<script>
+function myD20() {
+  var x = document.getElementById("d20")
+  x.innerHTML = Math.floor((Math.random() * 20) + 1);
+}
+</script>
+
+</body>
+</html>
+
