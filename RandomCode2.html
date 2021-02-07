@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body style="background-color:#p156b0a;">
 
 <!-- Edited code to make it suitable for Honeywood Forest -->
 <center>
+	<table border="0" bgcolor="#ffbd59">
 	<img src="https://files.peakd.com/file/peakd-hive/justatouchfey/3HMqsZhy-honeywood_small_header.png">
 <h1>&nbsp;</h1>
 <h1>Roll for your turn:</h1>
 
 <button onclick="myD6()">D6</button>
 
+You rolled a:
 <p id="d6"></p>
+
+<p>Return to today's game post and comment to make your move!</p>
 
 <script>
 function myD6() {
@@ -18,6 +22,7 @@ function myD6() {
   x.innerHTML = Math.floor((Math.random() * 6) + 1);
 }
 </script>
-
+</center>
+</center>
 </body>
 </html>
