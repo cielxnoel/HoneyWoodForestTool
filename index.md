@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 	<style>
@@ -10,8 +10,6 @@
 
 <!-- Edited code to make it suitable for Honeywood Forest -->
 <center>
-	<table border="0" bgcolor="#ffbd59">
-		<tr><td><center>
 	<img src="https://files.peakd.com/file/peakd-hive/justatouchfey/3HMqsZhy-honeywood_small_header.png">
 <h1>&nbsp;</h1>
 <h1>Press to roll for your turn:</h1>
@@ -29,8 +27,6 @@ function myD6() {
   x.innerHTML = Math.floor((Math.random() * 6) + 1);
 }
 </script>
-</center></td></tr>
-</table>
 </center>
 </body>
 </html>
