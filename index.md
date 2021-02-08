@@ -28,59 +28,7 @@ function myD6() {
 }
 </script>
 <p></p>
-<h1>Press to pull a card for your turn:</h1>
-<button onclick="myItem()">Pull a card!</button>
 
-<script>
-function myItem() {
-var myArray = [
-  "You found berries!",
-  "You found nuts!",
-  "You found roots!",
-  "You found a fish!",
-  "You found a honeycomb!",
-  "You found insects!",
-  "You found some meat!",
-  "You found some mushrooms!",
-  "You found berries!",
-  "You found nuts!",
-  "You found roots!",
-  "You found a fish!",
-  "You found a honeycomb!",
-  "You found insects!",
-  "You found some meat!",
-  "You found some mushrooms!",
-  "You found berries!",
-  "You found nuts!",
-  "You found roots!",
-  "You found a fish!",
-  "You found a honeycomb!",
-  "You found insects!",
-  "You found some meat!",
-  "You found some mushrooms!",
-  "You found a flute! Pick a bear to put to sleep for one turn!",
-  "You found some water! Drink and add +1 to your next roll!",
-  "You found some water! Drink and add +1 to your next roll!",
-  "You found some water! Drink and add +1 to your next roll!",
-  "You found some water! Drink and add +1 to your next roll!",
-  "You found a PAL token!",
-  "You found 10 DEC tokens!",
-  "You found a HIVE token!",
-  "You found a BEE token!"
-  "You found 0.5 LEO token!"
-  "You found a DEIA token!"
-  "You found 10 SIM tokens!"
-  "You found 10 NEOXAG tokens!"
-  "You heard something in the trees! Move backwards 1 space!",
-  "You heard something in the trees! Move backwards 1 space!",
-  "You heard something in the trees! Move backwards 1 space!",
-  "You heard something in the trees! Move backwards 1 space!"
-];
-
-var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
-alert(randomItem);
-}
-</script>
 </center>
 </body>
 </html>
