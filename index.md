@@ -29,10 +29,10 @@ function myD6() {
 </script>
 <p></p>
 <h1>Press to pull a card for your turn:</h1>
-<button onclick="myCard()">Pull a card!</button>
+<button onclick="myItem()">Pull a card!</button>
 
 <script>
-function myCard() {
+function myItem() {
 var myArray = [
   "You found berries!",
   "You found nuts!",
